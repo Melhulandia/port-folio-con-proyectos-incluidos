@@ -51,25 +51,24 @@
       border-right: .2rem double rgb(170, 22, 158);
   }
   header .user img{
-      width: 15rem;
-      height: 15rem;
+      width: 20vh;
+      height:20vh;
       border-radius: 50rem;
       object-fit: contain;
       border: .4rem solid rgb(170, 22, 158) ;
       object-position: center;
+      margin:5%;
   }
   header .user h1{
       color: whitesmoke;
       font-size: 3rem;
-      margin: 1rem;
-      margin-top: 5%;
+      margin: 10%;
     }
-    #navbar{ 
-        height: 100%!important;
+    #navbar{
         flex-direction: column;
         margin-top: -1.5rem;
         text-align: center;
-        padding-left: 2rem;
+        height: max-content;
     }
     #navbar ul{
         list-style:none;
@@ -122,7 +121,7 @@
       background-color: rgb(170, 22, 158) ;
   }
   .about .row .info{
-      margin-top: 1rem;
+      margin: 2%;
       font-size: 1.75rem;
       width: auto;
   }
@@ -169,8 +168,10 @@
     .c img{
         border-radius:1.3rem ;
     }
+    .Proyects{
+        margin: 2%;
+    }
     .education .container {
-      background-color: #aa169e!important;
       margin-top: 1rem;
       display: flex;
       flex-wrap: wrap;
@@ -212,14 +213,16 @@
   }
   .skills .row .box{
       display: flex;
-      flex-direction: row;
+      flex-direction: row;/*//////////////////////////////////////////////////////////////////*/
       padding-top: 2rem;
       padding-left: 2.5rem;
   }
   .skills .row .box img{
-      width: 7rem;
-      height: 6rem;
-      padding-right :1rem ;
+      width: 80px;
+      height: 80px;
+      border-radius: 50rem;
+      object-fit: contain;
+      border: .4rem solid rgb(170, 22, 158) ;
   }
   .skills .row .box h3{
       padding-left: 2.5rem;
@@ -233,17 +236,16 @@
   .experience .info h3{
       color: whitesmoke;
       font-size: 2rem;
-      padding-top: 1rem;
-      padding-left: 1rem;
+      padding-top: 2%;
+      padding-left: 1%;
   }
   .experience .info h3 span{
       color: rgb(170, 22, 158) ;
   }
-  .experience .info img{
-      width:5%;
-      height: 5%;
-      object-position: 2rem;
-      margin-top: 4rem;
+  .experience img{
+    margin: 2%;
+      width: 150px;;
+      height: 75px;
   }
   .contact .row {
       display: flex;
